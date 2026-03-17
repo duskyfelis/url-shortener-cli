@@ -1,0 +1,28 @@
+{
+  "name": "url-shortener-cli",
+  "version": "1.0.0",
+  "description": "A CLI tool to shorten URLs using multiple services",
+  "main": "index.js",
+  "bin": {
+    "shorten": "./index.js",
+    "url-shorten": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "url",
+    "shortener",
+    "cli",
+    "tinyurl",
+    "bitly"
+  ],
+  "author": "duskyfelis",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.13.6",
+    "chalk": "^4.1.2",
+    "clipboardy": "^3.0.0",
+    "dotenv": "^16.3.1"
+  }
+}
