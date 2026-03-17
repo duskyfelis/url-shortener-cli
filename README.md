@@ -15,6 +15,7 @@ cd url-shortener-cli
 npm install
 npm link
 ```
+```bash
 Usage:
   shorten <url> [service]          - Shorten a URL
   shorten -s <url>                  - Shorten and copy to clipboard
@@ -23,7 +24,8 @@ Usage:
   shorten -v, --version              - Show version
   shorten --history                   - Show recent URLs
   shorten --clear                      - Clear history
-
+```
+```bash
 Examples:
   shorten https://example.com/very/long/url
   shorten https://example.com tinyurl
