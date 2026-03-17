@@ -27,3 +27,8 @@ Examples:
   shorten https://example.com/very/long/url
   shorten https://example.com tinyurl
   shorten -s https://example.com
+```
+```bash
+Removal:
+  npm uninstall -g package-name
+```
